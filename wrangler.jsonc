@@ -22,7 +22,7 @@
   // 占位符只用于本地 `wrangler dev`（本地模式不读真实 id）。
   // 真实 id 由部署脚本从环境变量 SUBBOOST_KV_ID 注入到临时配置文件，不写入本文件。
   "kv_namespaces": [
-    { "binding": "SUBBOOST_KV", "id": "6037ae5b254b43abb44ca3d2bae78958" }
+    { "binding": "SUBBOOST_KV", "id": "REPLACE_WITH_KV_NAMESPACE_ID" }
   ],
   "triggers": { "crons": ["0 */12 * * *"] },
   // 密钥不进仓库：ADMIN_TOKEN / ENCRYPTION_KEY 必须用 `npx wrangler secret put <NAME>`
